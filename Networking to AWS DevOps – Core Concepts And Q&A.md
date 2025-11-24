@@ -1,52 +1,52 @@
 
-## 🌐 AWS & DevOps Networking – A Complete Beginner-Friendly Explanation
+##. 🌐 AWS & DevOps Networking – A Complete Beginner-Friendly Explanation
 Networking is one of the most important foundations when learning AWS and DevOps, because every application running in the cloud depends on secure and efficient network connectivity.
 In simple words, Networking = How systems communicate with each other (within cloud, between servers, and with the internet).
 ________________________________________
-## ☁️ AWS Networking – Core Concepts
+##. ☁️ AWS Networking – Core Concepts
 # 1️⃣ VPC (Virtual Private Cloud)
 A VPC is your private network inside AWS where you can launch resources like EC2 instances, databases, and load balancers.
 It works like your own secure isolated data center in the cloud.
-# 2️⃣ Subnets
+#. 2️⃣ Subnets
 A subnet divides your VPC network into smaller sections.
 •	Public Subnet – resources that need internet access (e.g., web servers)
 •	Private Subnet – internal resources (e.g., databases, backend services)
-# 3️⃣ Internet Gateway (IGW)
+#. 3️⃣ Internet Gateway (IGW)
 Allows resources in public subnets to connect to the Internet.
-# 4️⃣ NAT Gateway
+#. 4️⃣ NAT Gateway
 Allows private subnet instances to access the internet outbound only (for updates) but keeps them safe from inbound traffic.
-# 5️⃣ Route Table
+#. 5️⃣ Route Table
 Controls how traffic flows between subnets and outside networks (internet, on-premise, etc.)
-# 6️⃣ Security Groups
+#. 6️⃣ Security Groups
 Firewall that controls traffic for individual resources (EC2, RDS etc.)
 Works at instance level.
-# 7️⃣ NACL (Network Access Control List)
+#. 7️⃣ NACL (Network Access Control List)
 Firewall that protects subnets.
 Works at network level.
-# 8️⃣ Load Balancer
+#. 8️⃣ Load Balancer
 Distributes traffic across multiple servers to increase performance & reliability.
-# 9️⃣ VPC Peering / Transit Gateway
+#. 9️⃣ VPC Peering / Transit Gateway
 Used to connect multiple VPCs for larger architecture.
 ________________________________________
-## 🔧 Networking in DevOps
+##. 🔧 Networking in DevOps
 DevOps networking ensures connectivity and automation between tools, servers, and CI/CD pipelines.
-# Key DevOps networking areas:
+#. Key DevOps networking areas:
 •	DNS & Domain management using Route53 or Cloudflare
 •	Reverse proxy & load balancing using NGINX / HAProxy / AWS ALB/NLB
 •	Service discovery in Kubernetes networking (ClusterIP, NodePort, Ingress)
 •	CI/CD Pipeline network access for deployments
 •	Firewall & access control using security groups & VPN
-# Why networking matters in DevOps:
+#. Why networking matters in DevOps:
 Reason	Explanation
 Security	Protect infrastructure & data
 Connectivity	Ensure smooth communication across components
 Scalability	Support high traffic with load balancers & autoscaling
 Troubleshooting	Debug failures & outage issues
 ________________________________________
-## 🧠 Real-World Example
+##. 🧠 Real-World Example
 A user visits your website → request goes to Load Balancer → forwarded to EC2 server in public subnet → server communicates with Database in private subnet → response back to user securely.
 ________________________________________
-## 🚀 Summary
+##. 🚀 Summary
 Concept	Purpose
 VPC	Private cloud network
 Public / Private Subnet	Organize & secure resources
@@ -56,13 +56,13 @@ SG / NACL	Firewall & security
 Load Balancer	Distribute traffic
 DevOps Networking	Infrastructure automation & deployment connectivity
 ________________________________________
-## 🤝 Final Note
+##. 🤝 Final Note
 Mastering AWS & DevOps networking builds a strong base for advanced topics like Kubernetes, CI/CD pipelines, microservices architecture & cloud security.
 If you’re learning AWS & DevOps:
 👉 Let’s connect & learn together!
 #AWS #DevOps #Networking #VPC #CloudComputing #LinkedInBlog #DailyLearning #TechCommunity
 
-## Networking Basics & Definitions
+##. Networking Basics & Definitions
 
 #. Q: What is computer networking?
 A: Networking means connecting two or more computers to share data, files, or resources.
