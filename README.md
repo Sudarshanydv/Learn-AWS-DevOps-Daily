@@ -1,5 +1,3 @@
-# Amazon-Web-Services
-Amazon Web Services (AWS) In Details
 🚀 Starting My AWS & DevOps Learning Journey!
 
 Hi Everyone! 👋
@@ -30,3 +28,19 @@ Students, cloud learners, freshers, and professionals interested in AWS & DevOps
 Let’s build skills. Let’s grow together. 💪🚀
 
 #AWS #DevOps #CloudComputing #LearningJourney #DailyUpdate #Collaboration #Students #TechCommunity
+
+🔗 Connect With Me & Follow My Learning Journey
+
+I will also be sharing my daily AWS & DevOps learning, code, notes, and Q&A on multiple platforms.
+You can follow and connect with me here:
+
+GitHub:
+https://github.com/Sudarshanydv
+
+Dev.to Blog:
+https://dev.to/sudarshan_yadav
+
+LinkedIn:
+https://www.linkedin.com/in/sudarshan-yadav
+
+Feel free to connect, collaborate, and grow together! 🚀
