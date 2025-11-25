@@ -1,148 +1,117 @@
-Today I learned Linux fundamentals, and it was a super valuable experience for me as an AWS & DevOps Engineer. 🤗 
- I understood how Linux is the backbone of most cloud environments, servers, and container systems like Docker & Kubernetes. It provides a secure, stable, and highly customizable platform, making it essential for automation, troubleshooting, and cloud deployment.
-Learning Linux is definitely boosting my confidence in building efficient cloud and DevOps solutions. 🚀
- If you found this helpful, share your thoughts, experiences, or tips in the comments — I’d love to learn from you too! 😊
+# ✨ Daily Learning Update – Linux Fundamentals 🐧
 
-You can follow and connect with me here:
+Today I learned Linux fundamentals, and it was a super valuable experience for me as an AWS & DevOps Engineer. 🤗  
+I understood how Linux is the backbone of most cloud environments, servers, and container systems like Docker & Kubernetes.  
+It provides a secure, stable, and highly customizable platform, making it essential for automation, troubleshooting, and cloud deployment.
 
-GitHub:
-https://lnkd.in/d2F3JPa3
-Dev.to Blog:
-https://lnkd.in/dNtgqAME
-LinkedIn:
-https://lnkd.in/d3NctxFT
+Learning Linux is definitely boosting my confidence in building efficient cloud and DevOps solutions. 🚀  
+If you found this helpful, share your thoughts, experiences, or tips in the comments — I’d love to learn from you too! 😊
 
-#DevOps #AWS #Linux #LearningJourney #CloudComputing #Automation #CareerGrowth #DevOpsEngineer
+---
 
-## Name – Sudarshan Yadav, Contact - 7709877817
-## Email Id – sudarshanyadav4080@gmail.com
-GitHub: https://github.com/Sudarshanydv
-Dev.to Blog: https://dev.to/sudarshan_yadav
-LinkedIn: https://www.linkedin.com/in/sudarshan-yadav
-Resume (Drive) - https://drive.google.com/file/d/1jas-UeQuCSR6OZCP6pAPTnLiWcJiAVk1/view?usp=drive_link
+## 🐧 History of Linux
+Linux was created in 1991 by Linus Torvalds as a free and open-source alternative to UNIX.  
+The first Linux kernel was released publicly, allowing global developers to contribute and improve it.  
+Today, Linux powers servers, supercomputers, Android devices, and modern cloud platforms like AWS.
 
-# Linux Fundamentals And Commands
-## 🐧 History of Linux 
-Linux was created in 1991 by Linus Torvalds as a free and open-source alternative to UNIX. The first Linux kernel was released publicly, allowing global developers to contribute and improve it. Over time, Linux evolved into a powerful platform used for servers, supercomputers, Android devices, and modern cloud computing systems like AWS.
+---
+
 ## 🐧 What is Linux? — Fundamentals
-Linux is an open-source, Unix-based operating system widely used in servers, cloud platforms, and DevOps environments. It manages hardware resources and provides a secure, stable, and customizable platform for running applications. Its hierarchical file system and shell interface enable automation and scripting, making Linux essential for cloud and DevOps workflows.
+Linux is an open-source, Unix-based operating system widely used in servers, cloud platforms, and DevOps environments.  
+It manages hardware resources and provides a secure, stable, and customizable platform for running applications.  
+Its hierarchical file system and shell interface enable automation and scripting, making Linux essential for DevOps workflows.
 
-## Pros of Linux
-•	Free and open source, reducing operational cost
-•	Highly stable and secure for mission-critical systems
-•	Best performance for servers and cloud environments
-•	Flexible and customizable, supports automation and scripting
-•	Large community and enterprise support
-## Cons of Linux
-•	Learning curve is higher for beginners
-•	Software compatibility issues with some commercial apps
-•	Requires more manual configuration than Windows
-⭐ Why Linux is valuable in AWS DevOps
-•	Most AWS compute and container services run on Linux, making it essential for cloud environments.
-•	Supports automation, scripting, and CI/CD pipelines for faster and reliable deployments.
-•	Provides strong performance, security, and powerful troubleshooting capabilities for production systems.
-# *All Usefull Linux Commands*
+---
 
-•	## Colors meaning’s in terminal 
-Files – White
-Folders – Blue
-All permission Granted – Green 
-Important Closing Commands
-Any editing file close - :q!, ctrl + x - Enter
+## ✔ Pros of Linux
+- Free and open source
+- Highly secure & stable
+- Best performance for servers and cloud workloads
+- Flexible & customizable with automation support
+- Huge community and support
 
-•	## Package Manager
-apt-get : Advanced Package Tools (Debian base pkg mngr)  
-yum/dnf : yellowdog updater modified (RPM base pkg mngr)
-dpkg : did not finish (Debian base pkg mngr)
-rpm : Redhat Package Manager (RPM base pkg mngr)
+## ❌ Cons of Linux
+- Steeper learning curve for beginners
+- Limited compatibility with some commercial software
+- More manual configuration required
 
-•	## File System Operation 
-ls : list - show files & folders
-ls -lt, ls -ltr : files permission and about groups
-ls -l : List with detailed information
-pwd : Print working directory
-cat <filename> : for only reading file
-touch <filename> : create empty file
-touch file {1..10} : one command create 1 to 10 files
-nano <filename> : File create and edit file. Close - ctrl + x - y - enter
-vi, vim <filename> : File create an d edit file. Close - esc - :q! - enter
-cd : Change current directory
-cd .. : Go to Previous Folder
-cd ../.. : Go to one time back a 2 Folder
-cd /home/paul/desktop/ newfolder/ : absolute path to go
-mkdir <foldername> : create folder / directory.
-mkdir –p <folder1> / <folder2> : for folder inside folder 
-|, &&, ; - execute more then 1 commands
-rm : Remove files/directories
-rm <filename> : delete file
-rm <filename> <filename> <filename> : delete 3 different files.
-rmdir <filename> : remove folder / directory
-rmdir <filename> <filename>  : multiple remove folder / directory
-cp : Copy files/directory
-cp mini.csc newfolder/ : copy file to this path
-cp mini.csv mini_copy.csv : copy file same folder
-mv : Move or rename files
-mv newfile newfolder : move / cut paste folder
-mv newfile newfiles : rename folder name
-less test.csv : search word in file
-head -5 test.csv : starting 5 line showing
-tail -5 test.csv : ending 5 line showing
-sort test.csv : file sort by abcde
-split -l 4 sortdemo.txt | uniq : remove duplicate
-grep “word” test.csv : search word in file
-egrep “ana|shanaya” test.csv : multiple word search
-ls x*: x all name search in list 
-wc -l <filename> : line count
-cmp fileA fileB : check 2 files comparision
-diff fileA fileB - 2 files diffrence
-diff -u fileA fileB - extra visible 2 file diffrence
-find ./ <name> test.csv : find files
-updatedb : for update sudo updatedb
-locate paul.csv : locate file 
-history : show all history
-ls --help : for more information about the command 
-man ls : manual the command 
-bc : use binary calculator
-cal : calendar, time, date show
-cal 2020 : this year calender
-uptime : server how long times to running mode
-script : record your activity in terminal
-ctrl + d : end script, script done & save file.
-gzip -k test.csv : compress file in new file.
-gunzip test.csv gz : for unzip file.
-tar -czf myfile.tar.gz : my files/ -compress folder
-zip myfiles.zip file1 file2 : compress multiple files on zip file.
-wget <link> : download any apk file.
-rpm -qa | grep sql : showing installed package.
-dnf list installed : all packages installed show. 
-dnf list installed | grep java : for specific this apt search <package name> 
-yum list available : apt available download list.
-systemctl status firewalld.service - start - stop : firewall start
-truncate -s 10M file.txt : file size shrink or extract.
-ssh user@ip.address : remote access on linux server.
-scp file user@ip:/folder/home/ : copy 1 server to 2nd server.
-chmod a + rwx file.txt : change file permission 
-chown root file.txt : ownership change
-chgrp root file.txt : change group
-pgrep nginx : get PID of a process.
-kill -g PID : stop process by PID
-pkill nginx : direct kill a process.
-ping www.google.com : website is accessible or not.
-netstat -putan | grep 80 : check if port open or not.
-traceroute www.google.com : path to reach website.
-reboot : restart our linux server.
-shutdown : shutdown the server.
-useradd alex : add new user
-password alex : add password alex
-su alex : switch user and enter password.
-groupadd testing : add new group
-cat /etc/group : checking group
-userdel <username> : user delete.
-groupdel <groupname> : group delete.
-at : schedule a script to run on a particular date or time.
-at 05:10 PM : this time schedule
-Echo “at command ex” > at-demo.txt : ctrl + d for save. 
-Then 5:10pm update or create the file this time.
+---
+
+## ⭐ Why Linux is Valuable in AWS DevOps
+- Most AWS compute and container services run on Linux
+- Supports automation & CI/CD for reliable deployment
+- Strong performance, security & troubleshooting capabilities
+
+---
+# 📌 Linux Useful Commands – GitHub Table Format
+
+| **Category** | **Command / Item** | **Description / Purpose** |
+|-------------|---------------------|----------------------------|
+| **Colors Meaning in Terminal** | Files | White |
+| | Folders | Blue |
+| | All Permission Granted | Green |
+| | Close Editing File | `:q!`, `ctrl + x → Enter` |
+| **Package Managers** | `apt-get` | Advanced Package Tool (Debian-based) |
+| | `yum / dnf` | Yellowdog Updater Modified (RHEL-based) |
+| | `dpkg` | Debian package manager |
+| | `rpm` | RedHat Package Manager |
+| **File System Operations** | `ls` | List files & folders |
+| | `ls -lt`, `ls -ltr` | Permissions, groups, latest first |
+| | `ls -l` | Detailed file listing |
+| | `pwd` | Show current path |
+| | `cat file` | View file content |
+| | `touch file` | Create empty file |
+| | `touch file{1..10}` | Create multiple files |
+| | `nano file` | Create/Edit file |
+| | `vi/vim file` | Edit file via VI editor |
+| | `cd` | Change directory |
+| | `cd ..` | Move back one folder |
+| | `cd ../..` | Move back two levels |
+| | `mkdir folder` | Create directory |
+| | `mkdir -p a/b/c` | Create nested folders |
+| | `rm file` | Remove file |
+| | `rmdir folder` | Remove directory |
+| | `cp file folder/` | Copy file to folder |
+| | `mv file folder/` | Move/Cut file |
+| | `mv old new` | Rename file or folder |
+| | `head -5 file` | Show first 5 lines |
+| | `tail -5 file` | Show last 5 lines |
+| | `grep "word" file` | Search word |
+| | `egrep "a|b"` | Search multiple words |
+| | `wc -l file` | Line count |
+| | `cmp fileA fileB` | Compare files |
+| | `diff fileA fileB` | Show differences |
+| | `find ./ -name test.csv` | Find file |
+| | `locate file` | Locate file (after `updatedb`) |
+| | `history` | Show executed commands |
+| | `man ls` | Manual of command |
+| | `gzip`, `gunzip`, `tar`, `zip` | Compress/Extract |
+| | `wget <url>` | Download file |
+| | `uptime` | Server running time |
+| | `script` | Record terminal session |
+| | `ctrl + d` | Exit & save |
+| **Networking & Security** | `ping domain.com` | Check connectivity |
+| | `ssh user@ip` | Connect remote |
+| | `scp file user@ip:/path` | Transfer files |
+| | `netstat -putan` | Check ports |
+| | `traceroute url` | Track packet route |
+| | `systemctl start/stop/status` | Service management |
+| | `chmod`, `chown`, `chgrp` | File permissions & ownership |
+| | `pgrep nginx` | Get process ID |
+| | `pkill nginx` | Kill process |
+| | `reboot`, `shutdown` | Restart / Stop server |
+| **User & Group Management** | `useradd`, `userdel` | Add/Delete user |
+| | `groupadd`, `groupdel` | Add/Delete group |
+| | `passwd user` | Set password |
+| | `su user` | Switch user |
+| | `cat /etc/group` | View groups |
+| **Scheduling** | `at 05:10 PM` | Schedule task |
+| | `echo "task" > file` | Apply at schedule |
+
+
+
+
+
 
 •	## Networking
 ifconfig : Configure network interfaces
@@ -258,3 +227,12 @@ Example: groupdel devs
 
 … Thank You …
 
+
+#DevOps #AWS #Linux #LearningJourney #CloudComputing #Automation #CareerGrowth #DevOpsEngineer
+
+## Name – Sudarshan Yadav, Contact - 7709877817
+## Email Id – sudarshanyadav4080@gmail.com
+GitHub: https://github.com/Sudarshanydv
+Dev.to Blog: https://dev.to/sudarshan_yadav
+LinkedIn: https://www.linkedin.com/in/sudarshan-yadav
+Resume (Drive) - https://drive.google.com/file/d/1jas-UeQuCSR6OZCP6pAPTnLiWcJiAVk1/view?usp=drive_link
