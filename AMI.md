@@ -1,7 +1,7 @@
 # 📌 Amazon Machine Image (AMI) - Complete Step-by-Step Guide
 
-## Today, I learned about Amazon Machine Images (AMI) — and it’s a major building block for AWS & DevOps Engineering! 🤩
-## I understood that an AMI is a pre-configured OS + software image used to launch EC2 instances quickly and consistently. It helps in standardizing environments and deploying servers at scale — especially in real-time DevOps and automation workflows.
+### Today, I learned about Amazon Machine Images (AMI) — and it’s a major building block for AWS & DevOps Engineering! 🤩
+### I understood that an AMI is a pre-configured OS + software image used to launch EC2 instances quickly and consistently. It helps in standardizing environments and deploying servers at scale — especially in real-time DevOps and automation workflows.
 
 ## Name – Sudarshan Yadav, Contact - 7709877817
 ## Email Id – sudarshanyadav4080@gmail.com
