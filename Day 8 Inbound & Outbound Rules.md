@@ -1,7 +1,7 @@
 # 📅 Day 8 — Inbound & Outbound Rules in AWS Security Groups 
 Security Groups act as a virtual firewall in AWS that protect EC2 instances from unwanted traffic and ensure secure communication.
 Today, I learned how Inbound and Outbound rules work — a critical skill for deploying secure applications in real DevOps workflows.---
-
+ 
 ## AWS Networking — EIP + Inbound + Outbound Rules
  
 ---
