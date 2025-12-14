@@ -4,7 +4,7 @@ Today, I learned about **AWS RDS (Relational Database Service)**, which is a **f
 
 AWS RDS helps teams focus on application development by handling **database provisioning, backups, patching, scaling, and maintenance** automatically.
 
----
+---  
  
 ## 🗄️ What is AWS RDS?
 
