@@ -31,7 +31,6 @@ EFS helps in building **highly available, scalable, and persistent storage solut
 
 ### One-Line Summary (Interview)
 > **Amazon EFS is a fully managed shared file system that provides scalable and highly available storage for multiple EC2 instances across availability zones using NFS.**
-0000000000000000000
 
 # AWS EFS (Elastic File System) – Step by Step DevOps Guide
 
