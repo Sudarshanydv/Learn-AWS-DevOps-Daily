@@ -217,6 +217,8 @@ Amazon CloudFront is a powerful CDN service that:
 
 ---
 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bw1eejm1z868njgpngcr.png)
+
 ## Thank You
 
 ## 🔗 Connect With Me
