@@ -19,7 +19,7 @@ It delivers content like:
 - CSS
 - JavaScript
 - Images
-- Videos
+- Videos 
 - APIs
 
 from **edge locations** (servers near users) to provide **low latency and high speed**. 
