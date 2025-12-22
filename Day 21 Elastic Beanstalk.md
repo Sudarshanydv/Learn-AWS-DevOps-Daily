@@ -81,7 +81,7 @@ Supported platforms include:
 ```
 User → Load Balancer → EC2 Instances → Application
 ```
-
+ 
 ---
 
 ## Deployment Options in Elastic Beanstalk
