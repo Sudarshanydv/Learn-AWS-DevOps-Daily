@@ -29,7 +29,7 @@ Think of it as a **security gate for each subnet**.
 
 As a DevOps engineer, you work with: 
 
-- VPC creation  
+- VPC creation   
 - Subnets (public/private)  
 - EC2, Load balancers, NAT  
 - Kubernetes clusters (EKS)  
