@@ -24,7 +24,7 @@ You just upload your **application code**, and Elastic Beanstalk automatically h
 
 ## Why DevOps Engineers Use Elastic Beanstalk 
 
-Elastic Beanstalk is useful when:
+Elastic Beanstalk is useful when: 
  
 * You want **fast deployment**
 * You don’t want to manage infrastructure manually
