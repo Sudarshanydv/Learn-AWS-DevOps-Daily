@@ -21,7 +21,7 @@ YAML / JSON
 - Manages full lifecycle (Create, Update, Delete) 
 - Consistent deployments
 - Automatic rollback on failure
-- Fully managed by AWS
+- Fully managed by AWS 
 
 ---
 
